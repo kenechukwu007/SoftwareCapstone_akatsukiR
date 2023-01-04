@@ -30,6 +30,9 @@ public class DBInit {
         this.appUserRepo = appUserRepo;
     }
 
+    public DBInit() {
+    }
+
     @Bean
     public CommandLineRunner initDb(){
         return args -> {
