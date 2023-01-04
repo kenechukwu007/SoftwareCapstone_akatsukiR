@@ -1,9 +1,8 @@
 package com.ecommerce.akatsukiresources;
 
-import com.ecommerce.akatsukiresources.dto.AppDto.AppUserDto;
-import com.ecommerce.akatsukiresources.dto.LoginDto;
+
 import com.ecommerce.akatsukiresources.enums.Role;
-import com.ecommerce.akatsukiresources.handler.CustomizedException;
+
 import com.ecommerce.akatsukiresources.model.Appuser;
 import com.ecommerce.akatsukiresources.model.VerificationToken;
 import com.ecommerce.akatsukiresources.repository.AppUserRepo;
@@ -13,11 +12,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
-import javax.annotation.PostConstruct;
-import javax.xml.bind.DatatypeConverter;
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
-import java.util.Objects;
+
 
 @Component
 public class DBInit {

@@ -6,7 +6,7 @@ import com.ecommerce.akatsukiresources.model.Category;
 import com.ecommerce.akatsukiresources.model.Product;
 import com.ecommerce.akatsukiresources.repository.ProductRepo;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
+
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
