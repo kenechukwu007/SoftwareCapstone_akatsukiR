@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'Akatsuki-resource'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D9C008903E9F4871B2E2A6E09015709F }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_421F0AD69E244E1DBBB831E67EB00FAE }}
           package: '*.jar'
