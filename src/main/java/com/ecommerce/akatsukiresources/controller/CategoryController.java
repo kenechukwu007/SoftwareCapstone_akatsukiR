@@ -2,7 +2,6 @@ package com.ecommerce.akatsukiresources.controller;
 
 import com.ecommerce.akatsukiresources.common.ApiResponse;
 import com.ecommerce.akatsukiresources.model.Category;
-import com.ecommerce.akatsukiresources.repository.CategoryRepo;
 import com.ecommerce.akatsukiresources.service.CategoryService;
 
 import org.springframework.beans.factory.annotation.Autowired;

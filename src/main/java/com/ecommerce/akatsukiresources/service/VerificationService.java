@@ -4,7 +4,7 @@ import com.ecommerce.akatsukiresources.handler.VerificationException;
 import com.ecommerce.akatsukiresources.model.Appuser;
 import com.ecommerce.akatsukiresources.model.VerificationToken;
 import com.ecommerce.akatsukiresources.repository.TokenRepo;
-import com.ecommerce.akatsukiresources.utilize.Check;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
